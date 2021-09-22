@@ -2,13 +2,19 @@
 
 namespace estoque
 {
-    public class Produto
+    public class produto
     {
         // cria variaveis publicas
         public string Nome;
         public double Preco;
         public int Quantidade;
-        //cria função para calcular valor total produto
+        //cria construtor
+
+            public produto (string nome, double preco, int quantidade) { 
+            Nome = nome;
+            Preco = preco; 
+            Quantidade = quantidade; 
+        }
 
         public double ValorTotalEmEstoque()
         {
@@ -41,15 +47,17 @@ namespace estoque
     {
         static void Main(string[] arg)
         {//chama variaves de outra classe
-            Produto p = new Produto();
             //efetua  o programa
             Console.WriteLine("Entre com os dados do produto;");
             Console.Write("Nome: ");
-            p.Nome = Console.ReadLine();
+            string Nome = Console.ReadLine();
             Console.Write("Preço: ");
-            p.Preco = double.Parse(Console.ReadLine());
+            double Preco = double.Parse(Console.ReadLine());
             Console.Write("Quantidade no estoque: ");
-            p.Quantidade = int.Parse(Console.ReadLine());
+            int Quantidade = int.Parse(Console.ReadLine());
+
+            //atribui a variavel ao construtor
+            produto p = new produto(Nome, Preco, Quantidade);
             Console.WriteLine("Dados do produto: " + p);
             Console.WriteLine("Digite o número de produtos a ser adicionado ao estoque: ");
             int qte = int.Parse(Console.ReadLine());
