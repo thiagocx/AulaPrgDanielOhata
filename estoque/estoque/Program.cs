@@ -16,6 +16,26 @@ namespace estoque
             Quantidade = quantidade; 
         }
 
+        public string nome // cria propeties
+        {
+            get { return Nome; }
+            set{
+                if (value != null && value.Length > 1){ 
+                    Nome = value; }
+            }
+        
+        }
+
+        //public void Setnome(string nome)
+        //{
+          //   Nome = nome;
+        //}
+
+        public int GetQuantidade()
+        { 
+          return Quantidade; 
+        }
+
         public double ValorTotalEmEstoque()
         {
             return Preco * Quantidade;
