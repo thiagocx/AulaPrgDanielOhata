@@ -26,10 +26,7 @@ namespace estoque
         
         }
 
-        //public void Setnome(string nome)
-        //{
-          //   Nome = nome;
-        //}
+        
 
         public int GetQuantidade()
         { 
