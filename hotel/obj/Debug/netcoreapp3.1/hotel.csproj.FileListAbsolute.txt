@@ -1,0 +1,13 @@
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\bin\Debug\netcoreapp3.1\hotel.exe
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\bin\Debug\netcoreapp3.1\hotel.deps.json
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\bin\Debug\netcoreapp3.1\hotel.runtimeconfig.json
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\bin\Debug\netcoreapp3.1\hotel.runtimeconfig.dev.json
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\bin\Debug\netcoreapp3.1\hotel.dll
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\bin\Debug\netcoreapp3.1\hotel.pdb
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\obj\Debug\netcoreapp3.1\hotel.csprojAssemblyReference.cache
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\obj\Debug\netcoreapp3.1\hotel.AssemblyInfoInputs.cache
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\obj\Debug\netcoreapp3.1\hotel.AssemblyInfo.cs
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\obj\Debug\netcoreapp3.1\hotel.csproj.CoreCompileInputs.cache
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\obj\Debug\netcoreapp3.1\hotel.dll
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\obj\Debug\netcoreapp3.1\hotel.pdb
+C:\visualstudio\AulaPrgDanielOhata\matriz 1\hotel\obj\Debug\netcoreapp3.1\hotel.genruntimeconfig.cache
