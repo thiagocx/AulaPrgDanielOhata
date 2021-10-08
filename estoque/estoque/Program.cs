@@ -4,10 +4,11 @@ namespace estoque
 {
     public class produto
     {
-        // cria variaveis publicas
-        public string Nome;
-        public double Preco;
-        public int Quantidade;
+        // cria variaveis publicas 
+        private string Nome;
+        //cria  os auto propeties, além de deixar em private.
+        public double Preco { get; private set; }
+        public double Quantidade { get; private set; }
         //cria construtor
 
             public produto (string nome, double preco, int quantidade) { 
@@ -15,6 +16,22 @@ namespace estoque
             Preco = preco; 
             Quantidade = quantidade; 
         }
+
+        public string nome // cria propeties
+        {
+            get { return Nome; }
+            set{
+                if (value != null && value.Length > 1)
+                { 
+                    Nome = value; 
+                }
+            }
+        
+        }
+
+        
+
+    
 
         public double ValorTotalEmEstoque()
         {
